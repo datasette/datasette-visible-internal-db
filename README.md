@@ -1,9 +1,9 @@
 # datasette-visible-internal-db
 
 [![PyPI](https://img.shields.io/pypi/v/datasette-visible-internal-db.svg)](https://pypi.org/project/datasette-visible-internal-db/)
-[![Changelog](https://img.shields.io/github/v/release/simonw/datasette-visible-internal-db?include_prereleases&label=changelog)](https://github.com/simonw/datasette-visible-internal-db/releases)
-[![Tests](https://github.com/simonw/datasette-visible-internal-db/workflows/Test/badge.svg)](https://github.com/simonw/datasette-visible-internal-db/actions?query=workflow%3ATest)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-visible-internal-db/blob/main/LICENSE)
+[![Changelog](https://img.shields.io/github/v/release/datasette/datasette-visible-internal-db?include_prereleases&label=changelog)](https://github.com/datasette/datasette-visible-internal-db/releases)
+[![Tests](https://github.com/datasette/datasette-visible-internal-db/workflows/Test/badge.svg)](https://github.com/datasette/datasette-visible-internal-db/actions?query=workflow%3ATest)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/datasette/datasette-visible-internal-db/blob/main/LICENSE)
 
 Datasette plugin for making the internal database visible for debugging
 
