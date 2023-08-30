@@ -1,0 +1,26 @@
+[project]
+name = "datasette-visible-internal-db"
+version = "0.1"
+description = "Datasette plugin for making the internal database visible for debugging"
+readme = "README.md"
+authors = [{name = "Simon Willison"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Framework :: Datasette",
+]
+dependencies = [
+    "datasette>=1.0a5"
+]
+
+[project.urls]
+Homepage = "https://github.com/datasette/datasette-visible-internal-db"
+Changelog = "https://github.com/datasette/datasette-visible-internal-db/releases"
+Issues = "https://github.com/datasette/datasette-visible-internal-db/issues"
+CI = "https://github.com/datasette/datasette-visible-internal-db/actions"
+
+[project.entry-points.datasette]
+debug_visible_internal_db = "datasette_debug_visible_internal_db"
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-asyncio"]
