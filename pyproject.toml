@@ -1,6 +1,6 @@
 [project]
 name = "datasette-visible-internal-db"
-version = "0.1.1"
+version = "0.1.1a1"
 description = "Datasette plugin for making the internal database visible for debugging"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]
@@ -10,7 +10,7 @@ classifiers = [
     "Framework :: Datasette",
 ]
 dependencies = [
-    "datasette>=1.0a5"
+    "datasette==1.0a19"
 ]
 
 [project.urls]
